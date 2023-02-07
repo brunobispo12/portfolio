@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url(./fonts/Satoshi-Regular.ttf);
+}
+
+@font-face {
+    font-family: Satoshi-Bold;
+    src: url(./fonts/Satoshi-Bold.ttf);
+}
+
+:root{
+    --cor0: #252627;
+    --cor1: #E83151;
+    --cor2: #9CFC97;
+    --cor3: #568EA3;
+    --cor4: #68C3D4;
+
+    --fonte-padrao: Satoshi;
+    --fonte-bold: Satoshi-Bold;
+}
+
+header{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.311);
+    min-height: 110px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: var(--fonte-padrao);
+}
+
+header > h1 {
+    font-family: var(--fonte-bold);
+}
+
+header > p {
+    padding-top: 10px;
+}
+
+body{
+    background-color: var(--cor0);
+}
+
+nav{
+    margin-top: -75px;
+    padding-left: 60px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--fonte-padrao);
+    margin-left: 20px;
+    position: relative;
+}
+
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+section#introduction{
+    margin-top: 55px;
+    height: 447px;
+    min-width: 320px;
+    max-width: 1240px;
+}
+
+section > div{
+    font-family: var(--fonte-bold);
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    background-color: #252627;
+    min-width: 320px;
+    max-width: 600px;
+    margin: auto;
+    color: #fff;
+    border-bottom: solid #fff;
+}
+
+section > div > h2 {
+    font-size: 40px;
+}
+
+section > div > p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+section > div > span > a {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--cor3);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    justify-content: center;
+}
+
+.space{
+    background-color: var(--cor4);
+    min-width: 320px;
+    max-width: 1240px;
+    height: 30px;
+    text-align: center;
+    font-family: var(--fonte-bold);
+    color: white;
+}
+
+.space > p{
+    padding-top: 4.7px;
+}
+
+section#sobre-mim{
+    padding-top: 20px;
+    min-width: 320px;
+    max-width: 1240px;
+    height: 350px;
+    font-family: var(--fonte-padrao);
+    color: #fff;
+}
+
+section#sobre-mim > p {
+    text-indent: 15px;
+    width: 350px;
+    background-color: var(--cor3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 87.5px;
+    margin-left: 100px;
+}
+
