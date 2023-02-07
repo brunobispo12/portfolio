@@ -55,7 +55,7 @@ header{
     text-align: center;
     padding-top: 20px;
     font-family: var(--fonte-padrao);
-    min-width: 320px;
+    min-width: 20%;
     max-width: 100%;
 }
 
@@ -70,7 +70,7 @@ body{
 
 nav{
     margin-top: -30px;
-    margin-left: 46px;
+    margin-left: 10.3%;
 }
 
 nav > a {
@@ -98,22 +98,24 @@ nav a:hover::after{
 
 section#introduction{
     margin-top: 55px;
-    height: 402px;
-    min-width: 300px;
+    height: 25.2em;
+    min-width: 50%;
     max-width: 100%;
-    
 }
 
 section#introduction > div{
     font-family: var(--fonte-bold);
     text-align: center;
-    height: 215px;
     padding-top: 55px;
     background-color: #252627;
-    min-width: 320px;
-    max-width: 600px;
+    min-width: 70%;
+    max-width: 50%;
     margin: auto;
     color: #fff;
+}
+
+.barra{
+    padding-top: 1.5em;
     border-bottom: solid #fff;
 }
 
@@ -125,7 +127,7 @@ section#introduction > div > p {
     padding-top: 10px;
     padding-bottom: 30px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 section#introduction > div > span > a {
@@ -155,7 +157,7 @@ section#introduction > div > span > a:hover{
 
 section#sobre-mim{
     padding-top: 20px;
-    min-width: 300px;
+    min-width: 320px;
     max-width: 100%;
     min-height: 350px;
     max-height: 720px;
@@ -166,7 +168,7 @@ section#sobre-mim{
 div#content-text{
     margin: auto;
     background-color: var(--cor3);
-    min-width: 300px;
+    min-width: 320px;
     max-width: 400px;
     border-radius: 5px;
     padding: 5px;
