@@ -157,11 +157,12 @@ section#introduction > div > span > a:hover{
 }
 
 section#sobre-mim{
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 6rem;
     flex-wrap: wrap;
-    gap: 50px;
     padding-top: 20px;
     min-width: 320px;
     max-width: 100%;
@@ -179,10 +180,12 @@ div#content-text{
     text-indent: 10px;
 }
 
+div#content-image{
+    padding-top: -20px;
+    padding-bottom: 20px;
+}
+
 div#content-image > img{
-    padding-top: 20px;
     display: block;
     margin: auto;
-    padding-bottom: 20px;
-
 }
