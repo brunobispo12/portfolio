@@ -16,7 +16,7 @@
 :root{
     --cor0: #252627;
     --cor1: #E83151;
-    --cor2: #9CFC97;
+    --cor2: #D7BE82;
     --cor3: #568EA3;
     --cor4: #68C3D4;
 
@@ -134,18 +134,18 @@ section#introduction > div > p {
 section#introduction > div > span > a {
     text-decoration: none;
     color: #fff;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
     justify-content: center;
 }
 
 section#introduction > div > span > a:hover{
-    background-color: #568EA3cc;
+    background-color: #D7BE82cc;
 }
 
 .space{
-    background-color: var(--cor4);
+    background-color: var(--cor2);
     min-width: 320px;
     max-width: 100%;
     height: 35px;
@@ -157,6 +157,10 @@ section#introduction > div > span > a:hover{
 }
 
 section#sobre-mim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
     padding-top: 20px;
     min-width: 320px;
     max-width: 100%;
@@ -166,16 +170,18 @@ section#sobre-mim{
 }
 
 div#content-text{
-    margin: auto;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     min-width: 320px;
     max-width: 400px;
     border-radius: 5px;
     padding: 5px;
+    text-indent: 10px;
 }
 
 div#content-image > img{
     padding-top: 20px;
     display: block;
     margin: auto;
+    padding-bottom: 20px;
+
 }
