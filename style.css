@@ -16,9 +16,9 @@
 :root{
     --cor0: #252627;
     --cor1: #E83151;
-    --cor2: #D7BE82;
+    --cor4: #D7BE82;
     --cor3: #568EA3;
-    --cor4: #68C3D4;
+    --cor2: #68C3D4;
 
     --fonte-padrao: Satoshi;
     --fonte-bold: Satoshi-Bold;
@@ -141,7 +141,7 @@ section#introduction > div > span > a {
 }
 
 section#introduction > div > span > a:hover{
-    background-color: #D7BE82cc;
+    background-color: #568EA3cc;
 }
 
 .space{
@@ -157,6 +157,7 @@ section#introduction > div > span > a:hover{
 }
 
 section#sobre-mim{
+    background-color: red;
     margin: 15px;
     display: flex;
     justify-content: center;
@@ -172,7 +173,7 @@ section#sobre-mim{
 }
 
 div#content-text{
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     min-width: 320px;
     max-width: 400px;
     border-radius: 5px;
@@ -188,4 +189,39 @@ div#content-image{
 div#content-image > img{
     display: block;
     margin: auto;
+}
+
+section#my-projects{
+    font-family: var(--fonte-padrao);
+    color: #fff;
+    background-color: red;
+    padding-top: 50px;
+    min-width: 320px;
+    max-width: 100%;
+    margin: 15px;
+    height: 2000px;
+}
+
+div#text > p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+
+div#content-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: blue;
+    margin: auto;
+    min-width: 320px;
+    max-width: 95%;
+}
+
+.box{
+    background-color: green;
+    width: 45%;
+    height: 15em;
+    min-width: 24.61em;
 }
