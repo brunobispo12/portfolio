@@ -173,8 +173,7 @@ section#sobre-mim{
 
 div#content-text{
     background-color: var(--cor3);
-    min-width: 320px;
-    max-width: 400px;
+    width: 400px;
     border-radius: 5px;
     padding: 5px;
     text-indent: 10px;
@@ -193,12 +192,10 @@ div#content-image > img{
 section#my-projects{
     font-family: var(--fonte-padrao);
     color: #fff;
-    background-color: red;
     padding-top: 50px;
     min-width: 320px;
     max-width: 100%;
     margin: 15px;
-    height: 2000px;
 }
 
 div#text > p{
@@ -211,11 +208,24 @@ div#content-projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 50px;
-    background-color: blue;
-    margin: auto;
     min-width: 320px;
-    max-width: 95%;
+    max-width: 90%;
+    gap: 50px;
+    height: 500px;
+    margin: auto;
 }
 
+.box{
+    min-width: 320px;
+    max-width: 500px;
+    height: 275px;
+    background-color: green;
+    overflow: hidden;
+    border: solid 3px black;
+    border-radius: 15px;
+}
 
+.box > img {
+    width: 100%;
+    height: 100%;
+}
