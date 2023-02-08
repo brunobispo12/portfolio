@@ -209,10 +209,11 @@ div#content-projects{
     flex-wrap: wrap;
     justify-content: space-between;
     min-width: 320px;
-    max-width: 90%;
-    gap: 50px;
-    height: 500px;
+    gap: 65px;
+    max-width: 95%;
+    height: auto;
     margin: auto;
+    overflow: hidden;
 }
 
 .box{
