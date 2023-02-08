@@ -157,7 +157,6 @@ section#introduction > div > span > a:hover{
 }
 
 section#sobre-mim{
-    background-color: red;
     margin: 15px;
     display: flex;
     justify-content: center;
@@ -223,5 +222,5 @@ div#content-projects{
     background-color: green;
     width: 45%;
     height: 15em;
-    min-width: 24.61em;
+    min-width: 320px;
 }
