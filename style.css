@@ -207,15 +207,11 @@ div#text > p{
 }
 
 div#content-projects{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    min-width: 320px;
-    gap: 65px;
-    max-width: 95%;
+    display: grid;
+    justify-content: center;  
+    grid-template-columns: repeat(auto-fit, minmax(320px, 500px));
+    gap: 50px 194px;
     height: auto;
-    margin: auto;
-    overflow: hidden;
 }
 
 .box{
