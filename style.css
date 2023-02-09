@@ -220,7 +220,6 @@ div#content-projects{
     min-width: 320px;
     max-width: 500px;
     height: 275px;
-    background-color: green;
     overflow: hidden;
     border: solid 3px black;
     border-radius: 15px;
@@ -230,3 +229,5 @@ div#content-projects{
     width: 100%;
     height: 100%;
 }
+
+
