@@ -70,12 +70,12 @@ body{
     background-color: var(--cor0);
 }
 
-nav{
+body > nav{
     background-color: rgba(0, 0, 0, 0.311);
     padding-bottom: 10px;
 }
 
-nav > a {
+body > nav > a {
     text-decoration: none;
     color: #fff;
     font-family: var(--fonte-padrao);
@@ -275,6 +275,49 @@ section#skills{
 }
 
 footer{
-    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    min-width: 320px;
+    max-width: 100%;
     background-color: rgba(0, 0, 0, 0.311);
+    font-family: var(--fonte-padrao);
+    color: #fff;
 }
+
+div#contatos{
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+footer>nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer > nav> a{
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+footer > nav > a::after{
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+footer > nav > a::after:hover{
+    width: 100%;
+}
+
