@@ -280,6 +280,7 @@ footer{
     height: 150px;
     min-width: 320px;
     max-width: 100%;
+    padding-bottom: 10px;
     background-color: rgba(0, 0, 0, 0.311);
     font-family: var(--fonte-padrao);
     color: #fff;
