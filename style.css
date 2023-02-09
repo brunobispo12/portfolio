@@ -259,6 +259,8 @@ section#skills{
 .skills-content{
     width: fit-content;
     position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
     left: 17.5%;
     top: 8%;
 }
