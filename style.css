@@ -73,14 +73,13 @@ body{
 nav{
     background-color: rgba(0, 0, 0, 0.311);
     padding-bottom: 10px;
-    padding-left: 10px;
 }
 
 nav > a {
     text-decoration: none;
     color: #fff;
     font-family: var(--fonte-padrao);
-    margin-left: 20px;
+    margin-left: 2%;
     position: relative;
 }
 
@@ -228,4 +227,52 @@ div#content-projects{
     height: 100%;
 }
 
+section#skills{
+    display: grid;
+    justify-content: center;  
+    grid-template-columns: repeat(auto-fit, minmax(320px, 500px));
+    gap: 50px 50px;
+    min-width: 320px;
+    max-width: 100%;
+    height: fit-content;
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+}
 
+.box-skills{
+    min-width: 320px;
+    max-width: 550px;
+    height: 85px;
+    background-color: var(--cor3);
+    position: relative;
+    border-radius: 10px;
+}
+
+.image{
+    position: absolute;
+    top: 18.5%;
+    left: 1.5%;
+}
+
+.skills-content{
+    width: fit-content;
+    position: absolute;
+    left: 16%;
+    top: 8%;
+}
+
+.skills-content > h3{
+    font-family: var(--fonte-bold);
+}
+
+.skills-content > p{
+    font-size: 0.9rem;
+    font-family: var(--fonte-padrao);
+}
+
+footer{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.311);
+}
