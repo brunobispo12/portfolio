@@ -244,7 +244,7 @@ section#skills{
 .box-skills{
     min-width: 320px;
     max-width: 550px;
-    height: 85px;
+    height: 90px;
     background-color: var(--cor3);
     position: relative;
     border-radius: 10px;
