@@ -270,6 +270,8 @@ section#skills{
 }
 
 .skills-content > p{
+    min-width: 200px;
+    max-width: 402px;
     font-size: 0.9rem;
     font-family: var(--fonte-padrao);
 }
